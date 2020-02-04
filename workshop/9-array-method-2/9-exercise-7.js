@@ -7,10 +7,10 @@
 // Only greet people who's names have length at least 4.
 // Otherwise ignore them completely.
 // For example: greeLong(["bob", "daniel"]) returns ["Hello daniel"]
-  
-function greetLong(lst) {
-    // lst is an array of strings
 
+function greetLong(lst) {
+  // lst is an array of strings
+  return lst.filter(name => name.length >= 4).map(el => "Hello " + el);
 }
 // -------------------------------------------------------------------------
-console.log('Q7 greetLong()', greetLong(['Scott', 'Bob', 'Ric', 'Jim']));
+console.log("Q7 greetLong()", greetLong(["Scott", "Bob", "Ric", "Jim"]));
