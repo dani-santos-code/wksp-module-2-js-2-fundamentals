@@ -52,6 +52,7 @@ console.log(grandson.includes("Antoine") && "Morty Smith");
 // Decode and console. the secret!
 // To do so, you will need to remove all of the notCode words.
 
+console.log(wordsToExclude);
 // Q6 (challenge)
 // Scary Terry is actually not an enemy. Remove him from the list and console only Rick's true enemies.
 const onlyRealEnemies = enemies
