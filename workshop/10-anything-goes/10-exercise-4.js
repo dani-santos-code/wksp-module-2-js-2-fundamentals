@@ -5,7 +5,13 @@
 // Hint: consider using .filter(), .indexOf() and .lastIndexOf()
 
 function filterNonUnique(array) {
-
+  let seen = [];
+  array.forEach(el => {
+    if (!seen.includes(el)) {
+      seen.push(el);
+    }
+  });
+  return seen;
 }
 
-console.log(filterNonUnique([1,2,3,3,4,5,6,7,7,8]));
+console.log(filterNonUnique([1, 2, 3, 3, 4, 5, 6, 7, 7, 8]));
