@@ -4,8 +4,9 @@
 
 // Also, wouldn't it be nice if there were a Math method that could simplify the code....
 // https://www.w3schools.com/jsreF/jsref_obj_math.asp
-
-return Math.max(num1, num2);
+function greaterNumber(num1, num2) {
+  return Math.max(num1, num2);
+}
 
 // Q2b
 // Without changing the function at all,
